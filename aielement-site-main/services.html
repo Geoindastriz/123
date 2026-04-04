@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AiElement | Услуги</title>
+  <meta name="description" content="Услуги AiElement: сайты, боты, SEO, автоматизация заявок и комплексные AI-решения для бизнеса.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/tailwind.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/translations.js"></script>
+  <script defer src="assets/site.js"></script>
+</head>
+<body class="bg-base font-body text-white antialiased" data-page="services">
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="orb orb-cyan left-[-7rem] top-20 h-72 w-72"></div>
+    <div class="orb orb-green right-[-7rem] top-72 h-80 w-80"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#0a0a0a]/85 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <span class="flex h-11 w-11 items-center justify-center rounded-2xl border border-accent/40 bg-accent/10 shadow-[0_0_32px_rgba(0,240,255,0.2)]"><span class="h-4 w-4 rounded-sm bg-accent"></span></span>
+        <div><div class="font-heading text-lg font-bold tracking-wide">AiElement</div><div class="text-xs text-slate-400" data-i18n="nav.tagline">ИИ-решения для бизнеса</div></div>
+      </a>
+      <nav class="hidden items-center gap-6 text-sm lg:flex">
+        <a href="index.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.home">Главная</a>
+        <a href="services.html" class="text-white" data-i18n="nav.services">Услуги</a>
+        <a href="demo.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.demo">Демо</a>
+        <a href="how.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.how">Как мы работаем</a>
+        <a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.cases">Кейсы</a>
+        <a href="pricing.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.pricing">Цены</a>
+        <a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.contact">Контакты</a>
+      </nav>
+      <div class="hidden items-center gap-3 lg:flex">
+        <div class="lang-switch" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="demo.html" class="btn-primary rounded-full px-5 py-3 text-sm font-semibold transition" data-i18n="nav.launchDemo">Запустить демо</a>
+      </div>
+      <button type="button" class="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/5 lg:hidden" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+    <div class="mobile-menu-backdrop lg:hidden" data-menu-backdrop hidden></div>
+    <div id="mobile-menu" class="mobile-menu-panel lg:hidden" data-mobile-menu aria-hidden="true" hidden>
+      <div class="p-4 sm:p-5">
+        <div class="mb-4 flex items-start justify-between gap-4">
+          <div>
+            <div class="font-heading text-lg font-bold tracking-wide">AiElement</div>
+            <div class="mt-1 text-xs text-slate-400" data-i18n="nav.tagline">ИИ-решения для бизнеса</div>
+          </div>
+          <button type="button" class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5" data-menu-close aria-label="Close menu">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18"></path></svg>
+          </button>
+        </div>
+        <div class="lang-switch mobile-lang-switch mb-4" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <nav class="flex flex-col gap-1 text-sm">
+          <a href="index.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.home">Главная</a>
+          <a href="services.html" class="rounded-2xl bg-white/5 px-4 py-3 text-white" data-i18n="nav.services">Услуги</a>
+          <a href="demo.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.demo">Демо</a>
+          <a href="how.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.how">Как мы работаем</a>
+          <a href="cases.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.cases">Кейсы</a>
+          <a href="pricing.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.pricing">Цены</a>
+          <a href="contact.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.contact">Контакты</a>
+        </nav>
+        <a href="demo.html" class="btn-primary mt-4 block rounded-2xl px-4 py-3 text-center text-sm font-semibold transition" data-i18n="nav.launchDemo">Запустить демо</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ИЗМЕНИ ЗДЕСЬ: заголовок страницы услуг -->
+    <section class="mx-auto max-w-7xl px-4 pb-10 pt-10 sm:px-6 lg:px-8 lg:pb-16 lg:pt-16">
+      <div class="max-w-4xl">
+        <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-accent"></span><span data-i18n="hero.eyebrow">Что создаёт наша команда</span></div>
+        <h1 class="mt-6 font-heading text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl" data-i18n-html="hero.title">Услуги AiElement: <span class="text-accent">система продаж</span> под ваш бизнес</h1>
+        <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-300" data-i18n="hero.description">Мы не закрываем одну задачу "сделать сайт". Мы создаём связку каналов, в которой каждая страница, бот и автоматизация работают на прямые бронирования, заявки и рост выручки.</p>
+      </div>
+    </section>
+
+    <!-- ИЗМЕНИ ЗДЕСЬ: карточки услуг -->
+    <section class="mx-auto max-w-7xl px-4 pb-10 sm:px-6 lg:px-8 lg:pb-16">
+      <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <article class="glass-card glass-card-hover rounded-[30px] p-7 xl:col-span-2"><div class="text-sm text-accent" data-i18n="services.card1Label">Системы онлайн-бронирования</div><h2 class="mt-4 font-heading text-3xl font-bold" data-i18n="services.card1Title">Сайт + бот, которые доводят клиента до брони</h2><p class="mt-4 max-w-2xl text-slate-300" data-i18n="services.card1Text">Наша команда проектирует воронку для отелей, ресторанов и сервисных компаний: посадочная страница, сценарий диалога, сбор вводных и уведомления в Telegram.</p></article>
+        <article class="glass-card glass-card-hover rounded-[30px] p-7"><div class="text-sm text-accent" data-i18n="services.card2Label">Telegram-боты</div><h2 class="mt-4 text-2xl font-semibold" data-i18n="services.card2Title">Автоматические ответы и лиды в мессенджере</h2><p class="mt-4 text-slate-300" data-i18n="services.card2Text">Бот отвечает моментально, квалифицирует клиента и передаёт менеджеру уже тёплый запрос.</p></article>
+        <article class="glass-card glass-card-hover rounded-[30px] p-7"><div class="text-sm text-accent" data-i18n="services.card3Label">VK-боты</div><h2 class="mt-4 text-2xl font-semibold" data-i18n="services.card3Title">Принимают обращения прямо из VK</h2><p class="mt-4 text-slate-300" data-i18n="services.card3Text">Если ваша аудитория живёт во ВКонтакте, мы строим удобный сценарий записи, записи на консультацию или заказа.</p></article>
+        <article class="glass-card glass-card-hover rounded-[30px] p-7"><div class="text-sm text-accent" data-i18n="services.card4Label">MAX-боты</div><h2 class="mt-4 text-2xl font-semibold" data-i18n="services.card4Title">Новый канал продаж без ручной нагрузки</h2><p class="mt-4 text-slate-300" data-i18n="services.card4Text">Подключаем MAX как точку входа, где клиент быстро получает ответ и оставляет данные без ожидания.</p></article>
+        <article class="glass-card glass-card-hover rounded-[30px] p-7"><div class="text-sm text-accent" data-i18n="services.card5Label">Сайты и лендинги под ключ</div><h2 class="mt-4 text-2xl font-semibold" data-i18n="services.card5Title">Премиум-лендинг, который продаёт</h2><p class="mt-4 text-slate-300" data-i18n="services.card5Text">Мы создаём страницы в стиле сильного digital-бренда, где дизайн, структура и тексты заточены под конверсию.</p></article>
+        <article class="glass-card glass-card-hover rounded-[30px] p-7"><div class="text-sm text-accent" data-i18n="services.card6Label">SEO + наполнение контентом</div><h2 class="mt-4 text-2xl font-semibold" data-i18n="services.card6Title">Чтобы прямой трафик рос стабильно</h2><p class="mt-4 text-slate-300" data-i18n="services.card6Text">Наша команда помогает наполнить сайт нужным контентом, структурой и посадочными страницами для органического роста.</p></article>
+        <article class="glass-card glass-card-hover rounded-[30px] p-7 xl:col-span-2"><div class="text-sm text-accent" data-i18n="services.card7Label">Полная автоматизация бизнеса и заявок</div><h2 class="mt-4 font-heading text-3xl font-bold" data-i18n="services.card7Title">Собираем в единую систему все точки контакта с клиентом</h2><p class="mt-4 max-w-3xl text-slate-300" data-i18n="services.card7Text">Сайт, боты, заявки, уведомления, маршруты лидов и сценарии роста работают как один продукт. Это особенно важно, если хотите меньше ручной рутины и больше управляемой выручки.</p></article>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8 lg:pb-20">
+      <div class="rounded-[32px] border border-white/10 bg-white/[0.03] p-8 sm:p-10">
+        <div class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div>
+            <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-growth"></span><span data-i18n="extra.eyebrow">Что входит в подход AiElement</span></div>
+            <h2 class="mt-6 font-heading text-3xl font-bold sm:text-4xl" data-i18n="extra.title">Не просто разработка, а маршрут к прямым продажам</h2>
+            <p class="mt-4 text-lg text-slate-300" data-i18n="extra.description">Каждая услуга может быть отдельной, но максимальный эффект появляется, когда наша команда соединяет всё в одну логику: трафик, диалог, заявку, уведомление, допродажу и возврат клиента.</p>
+          </div>
+          <div class="grid gap-4">
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-slate-200" data-i18n="extra.point1">Продающий интерфейс и сильные тексты для вашего сегмента</div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-slate-200" data-i18n="extra.point2">Интеграция с Telegram как центром уведомлений и лидов</div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-slate-200" data-i18n="extra.point3">Рекомендации по росту: SEO, возврат клиентов, допродажи и сценарии удержания</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
+      <div><div class="font-heading text-2xl font-bold">AiElement</div><p class="mt-3 max-w-xl text-slate-400" data-i18n="footer.description">Наша команда создаёт AI-системы продаж и сервиса для бизнеса: сайты, боты, автоматизацию заявок и сценарии роста выручки.</p></div>
+      <div class="grid gap-3 sm:grid-cols-3">
+        <a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link1">Услуги</a>
+        <a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link2">Кейсы</a>
+        <a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link3">Контакты</a>
+      </div>
+    </div>
+    <div class="border-t border-white/10"><div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-sm text-slate-500 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8"><div data-i18n="footer.copy">AiElement. Команда разработчиков ИИ-решений для бизнеса.</div><div>&copy; <span data-year></span> AiElement</div></div></div>
+  </footer>
+
+  <a href="https://t.me/Ai_Element_Bot" target="_blank" rel="noreferrer" class="floating-cta btn-primary fixed bottom-5 right-5 z-40 rounded-full px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5" data-i18n="floating.demo">Демо в боте</a>
+</body>
+</html>

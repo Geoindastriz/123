@@ -1,0 +1,212 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "AiElement ИИ-решения для бизнеса" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e5]:
+          - generic [ref=e6]: AiElement
+          - generic [ref=e7]: ИИ-решения для бизнеса
+      - navigation [ref=e8]:
+        - link "Главная" [ref=e9] [cursor=pointer]:
+          - /url: index.html
+        - link "Услуги" [ref=e10] [cursor=pointer]:
+          - /url: services.html
+        - link "Демо" [ref=e11] [cursor=pointer]:
+          - /url: demo.html
+        - link "Как мы работаем" [ref=e12] [cursor=pointer]:
+          - /url: how.html
+        - link "Кейсы" [ref=e13] [cursor=pointer]:
+          - /url: cases.html
+        - link "Цены" [ref=e14] [cursor=pointer]:
+          - /url: pricing.html
+        - link "Контакты" [ref=e15] [cursor=pointer]:
+          - /url: contact.html
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - button "RU" [ref=e18]
+          - button "EN" [ref=e19]
+        - link "Запустить демо" [ref=e20] [cursor=pointer]:
+          - /url: demo.html
+      - button "Open menu" [ref=e21]:
+        - img
+  - main [ref=e23]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: AiElement / Команда разработчиков ИИ-решений
+        - heading "Приводим клиентов автоматически. Без агрегаторов и потерь" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Наша команда проектирует сайт, бота и сценарии продаж в одну систему, которая приводит прямые заявки, экономит время сотрудников и возвращает контроль над выручкой.
+        - generic [ref=e30]:
+          - link "Смотреть демо" [ref=e31] [cursor=pointer]:
+            - /url: demo.html
+          - link "Обсудить систему под ваш бизнес" [ref=e32] [cursor=pointer]:
+            - /url: contact.html
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: Прямые обращения
+            - generic [ref=e36]: 24/7
+          - generic [ref=e37]:
+            - generic [ref=e38]: Комиссии агрегаторов
+            - generic [ref=e39]: ниже
+          - generic [ref=e40]:
+            - generic [ref=e41]: Скорость ответа
+            - generic [ref=e42]: до 1 мин
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Система роста выручки
+            - generic [ref=e48]: Сайт + бот + автоматизация
+          - generic [ref=e49]: Запуск под ключ
+        - generic [ref=e50]:
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: 1. Трафик попадает в вашу систему
+              - generic [ref=e55]: Сайт, Telegram, VK или MAX собирают заявки напрямую
+            - text: "01"
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: 2. ИИ-логика квалифицирует клиента
+              - generic [ref=e60]: Система отвечает моментально и подводит к бронированию или заявке
+            - text: "02"
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: 3. Команда получает готовый лид
+              - generic [ref=e65]: Заявки и уведомления прилетают в Telegram без ручной рутины
+            - text: "03"
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: Почему клиенты уходят
+        - heading "Когда нет своей системы продаж, бизнес кормит посредников" [level=2] [ref=e70]
+        - paragraph [ref=e71]: Клиенты хотят написать и забронировать сразу, но упираются в медленные ответы, потерянные заявки и комиссии агрегаторов. Мы закрываем эту дыру системно.
+      - generic [ref=e72]:
+        - article [ref=e73]:
+          - generic [ref=e74]: Потеря горячего спроса
+          - heading "Клиент не ждёт ответа менеджера" [level=3] [ref=e75]
+          - paragraph [ref=e76]: Если человеку неудобно написать, уточнить цену или условия в один клик, он уходит туда, где ответ быстрее.
+        - article [ref=e77]:
+          - generic [ref=e78]: Комиссии и зависимость
+          - heading "Каждая бронь обходится дороже" [level=3] [ref=e79]
+          - paragraph [ref=e80]: Агрегаторы помогают в старте, но съедают прибыль и не дают строить прямые отношения с клиентом.
+        - article [ref=e81]:
+          - generic [ref=e82]: Ручная рутина
+          - heading "Команда тонет в повторяющихся сообщениях" [level=3] [ref=e83]
+          - paragraph [ref=e84]: Вопросы о свободных слотах, ценах и услугах забирают время у продаж и сервиса.
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]: Решение AiElement
+        - heading "Наша команда собирает цифровой отдел продаж, который работает 24/7" [level=2] [ref=e89]
+        - paragraph [ref=e90]: Мы создаём связку из сайта, бота, сценариев квалификации и уведомлений. В результате клиент быстрее принимает решение, а ваши разработчики и менеджеры видят всю воронку как на ладони.
+        - list [ref=e91]:
+          - listitem [ref=e92]: Единый стиль бренда и продающий UX вместо шаблонного сайта "как у всех".
+          - listitem [ref=e93]: Автоматический сбор заявок, дат, услуг и контактных данных без потери деталей.
+          - listitem [ref=e94]: "Уведомления в Telegram и сценарии роста: допродажи, напоминания, возвращение клиента."
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]: Сайт
+          - generic [ref=e99]: Захватывает прямой спрос
+          - paragraph [ref=e100]: Лендинг или сайт под ключ, который не просто показывает услуги, а ведёт к действию.
+        - generic [ref=e101]:
+          - generic [ref=e102]: Боты
+          - generic [ref=e103]: Отвечают сразу и без ошибок
+          - paragraph [ref=e104]: Telegram, VK и MAX закрывают рутинные вопросы и собирают квалифицированный интерес.
+        - generic [ref=e105]:
+          - generic [ref=e106]: Автоматизация
+          - generic [ref=e107]: Связывает команду и заявки
+          - paragraph [ref=e108]: Система отправляет нужные уведомления, фиксирует лиды и убирает ручные потери.
+        - generic [ref=e109]:
+          - generic [ref=e110]: Рост
+          - generic [ref=e111]: Помогает выручке расти
+          - paragraph [ref=e112]: Допуслуги, ретаргетинг, повторные касания и SEO помогают получать больше прямых клиентов.
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - generic [ref=e117]: Как это работает
+          - heading "Одна система ведёт клиента от интереса до оплаты" [level=2] [ref=e118]
+        - paragraph [ref=e119]: Мы не продаём разрозненные инструменты. Наша команда собирает единый маршрут, где каждый шаг подталкивает к прямому обращению.
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: "01"
+          - heading "Клиент видит предложение" [level=3] [ref=e123]
+          - paragraph [ref=e124]: Из поиска, рекламы или соцсетей человек попадает сразу в ваш канал конверсии.
+        - generic [ref=e125]:
+          - generic [ref=e126]: "02"
+          - heading "Сайт или бот задаёт нужные вопросы" [level=3] [ref=e127]
+          - paragraph [ref=e128]: Даты, формат услуги, количество гостей, бюджет или адрес собираются автоматически.
+        - generic [ref=e129]:
+          - generic [ref=e130]: "03"
+          - heading "Система подталкивает к действию" [level=3] [ref=e131]
+          - paragraph [ref=e132]: Клиент видит релевантное предложение и быстрый путь к бронированию или заявке.
+        - generic [ref=e133]:
+          - generic [ref=e134]: "04"
+          - heading "Команда получает готовую сделку" [level=3] [ref=e135]
+          - paragraph [ref=e136]: Уведомления, статусы и следующий шаг сразу приходят туда, где менеджеры уже работают.
+    - generic [ref=e138]:
+      - article [ref=e139]:
+        - generic [ref=e140]: Больше прямых заявок
+        - heading "Не отдаёте трафик посредникам" [level=3] [ref=e141]
+        - paragraph [ref=e142]: Собственная система превращает интерес в ваш актив, а не в чужую базу.
+      - article [ref=e143]:
+        - generic [ref=e144]: Экономия времени
+        - heading "Боты забирают рутину" [level=3] [ref=e145]
+        - paragraph [ref=e146]: Частые вопросы, выбор даты и первичная квалификация происходят автоматически.
+      - article [ref=e147]:
+        - generic [ref=e148]: Рост выручки
+        - heading "Система предлагает допродажи" [level=3] [ref=e149]
+        - paragraph [ref=e150]: Апсейлы и повторные касания помогают поднимать средний чек.
+      - article [ref=e151]:
+        - generic [ref=e152]: Контроль
+        - heading "Воронка понятна по шагам" [level=3] [ref=e153]
+        - paragraph [ref=e154]: Наша команда проектирует систему так, чтобы вы видели, где растут заявки и где теряются деньги.
+      - article [ref=e155]:
+        - generic [ref=e156]: Скорость запуска
+        - heading "Премиум-реализация под ключ" [level=3] [ref=e157]
+        - paragraph [ref=e158]: От концепции до первого демо и наполнения контентом без распыления подрядчиков.
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]: Кому особенно подходит
+        - heading "Где наша команда особенно быстро создаёт рост" [level=2] [ref=e163]
+      - generic [ref=e164]:
+        - article [ref=e165]:
+          - generic [ref=e166]: Отели
+          - heading "Больше прямых бронирований" [level=3] [ref=e167]
+          - paragraph [ref=e168]: Убираем трение между выбором номера и подтверждением заявки.
+        - article [ref=e169]:
+          - generic [ref=e170]: Рестораны
+          - heading "Резервы и события без хаоса" [level=3] [ref=e171]
+          - paragraph [ref=e172]: Боты собирают бронь, число гостей и пожелания до того, как менеджер откроет чат.
+        - article [ref=e173]:
+          - generic [ref=e174]: Салоны красоты
+          - heading "Запись и возвращаемость клиентов" [level=3] [ref=e175]
+          - paragraph [ref=e176]: Автоматические записи, напоминания и допродажи услуг разгружают администраторов.
+        - article [ref=e177]:
+          - generic [ref=e178]: Услуги
+          - heading "Лиды, которые уже готовы общаться" [level=3] [ref=e179]
+          - paragraph [ref=e180]: Собираем вводные по задаче, бюджету и срокам до первого звонка.
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - generic [ref=e185]: Система, которая автоматически приводит прямых клиентов
+        - heading "Если хотите расти без комиссий и ручного хаоса, наша команда уже готова показать демо" [level=2] [ref=e186]
+        - paragraph [ref=e187]: "Покажем, как это будет работать именно в вашем бизнесе: от первого касания до уведомления менеджеру в Telegram."
+      - generic [ref=e188]:
+        - link "Запустить демо" [ref=e189] [cursor=pointer]:
+          - /url: demo.html
+        - link "Получить консультацию команды" [ref=e190] [cursor=pointer]:
+          - /url: contact.html
+  - contentinfo [ref=e191]:
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - generic [ref=e194]: AiElement
+        - paragraph [ref=e195]: "Наша команда создаёт AI-системы продаж и сервиса для бизнеса: сайты, боты, автоматизацию заявок и сценарии роста выручки."
+      - generic [ref=e196]:
+        - link "Услуги" [ref=e197] [cursor=pointer]:
+          - /url: services.html
+        - link "Кейсы" [ref=e198] [cursor=pointer]:
+          - /url: cases.html
+        - link "Контакты" [ref=e199] [cursor=pointer]:
+          - /url: contact.html
+    - generic [ref=e201]:
+      - generic [ref=e202]: AiElement. Команда разработчиков ИИ-решений для бизнеса.
+      - generic [ref=e203]:
+        - text: ©
+        - text: AiElement
+  - link "Демо в боте" [ref=e204] [cursor=pointer]:
+    - /url: https://t.me/Ai_Element_Bot

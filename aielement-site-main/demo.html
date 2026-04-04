@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AiElement | Демо</title>
+  <meta name="description" content="Живое демо AiElement: демо-отель, Telegram-бот и примеры того, как система приводит прямых клиентов.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/tailwind.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/translations.js"></script>
+  <script defer src="assets/site.js"></script>
+</head>
+<body class="bg-base font-body text-white antialiased" data-page="demo">
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="orb orb-cyan left-[-8rem] top-16 h-72 w-72"></div>
+    <div class="orb orb-green right-[-6rem] top-60 h-80 w-80"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#0a0a0a]/85 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <span class="flex h-11 w-11 items-center justify-center rounded-2xl border border-accent/40 bg-accent/10 shadow-[0_0_32px_rgba(0,240,255,0.2)]"><span class="h-4 w-4 rounded-sm bg-accent"></span></span>
+        <div><div class="font-heading text-lg font-bold tracking-wide">AiElement</div><div class="text-xs text-slate-400" data-i18n="nav.tagline">ИИ-решения для бизнеса</div></div>
+      </a>
+      <nav class="hidden items-center gap-6 text-sm lg:flex">
+        <a href="index.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.home">Главная</a>
+        <a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.services">Услуги</a>
+        <a href="demo.html" class="text-white" data-i18n="nav.demo">Демо</a>
+        <a href="how.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.how">Как мы работаем</a>
+        <a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.cases">Кейсы</a>
+        <a href="pricing.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.pricing">Цены</a>
+        <a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.contact">Контакты</a>
+      </nav>
+      <div class="hidden items-center gap-3 lg:flex">
+        <div class="lang-switch" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="demo.html" class="btn-primary rounded-full px-5 py-3 text-sm font-semibold transition" data-i18n="nav.launchDemo">Запустить демо</a>
+      </div>
+      <button type="button" class="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/5 lg:hidden" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+    <div class="mobile-menu-backdrop lg:hidden" data-menu-backdrop hidden></div>
+    <div id="mobile-menu" class="mobile-menu-panel lg:hidden" data-mobile-menu aria-hidden="true" hidden>
+      <div class="p-4 sm:p-5">
+        <div class="mb-4 flex items-start justify-between gap-4">
+          <div>
+            <div class="font-heading text-lg font-bold tracking-wide">AiElement</div>
+            <div class="mt-1 text-xs text-slate-400" data-i18n="nav.tagline">ИИ-решения для бизнеса</div>
+          </div>
+          <button type="button" class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5" data-menu-close aria-label="Close menu">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18"></path></svg>
+          </button>
+        </div>
+        <div class="lang-switch mobile-lang-switch mb-4" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <nav class="flex flex-col gap-1 text-sm">
+          <a href="index.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.home">Главная</a>
+          <a href="services.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.services">Услуги</a>
+          <a href="demo.html" class="rounded-2xl bg-white/5 px-4 py-3 text-white" data-i18n="nav.demo">Демо</a>
+          <a href="how.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.how">Как мы работаем</a>
+          <a href="cases.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.cases">Кейсы</a>
+          <a href="pricing.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.pricing">Цены</a>
+          <a href="contact.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.contact">Контакты</a>
+        </nav>
+        <a href="demo.html" class="btn-primary mt-4 block rounded-2xl px-4 py-3 text-center text-sm font-semibold transition" data-i18n="nav.launchDemo">Запустить демо</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ИЗМЕНИ ЗДЕСЬ: вводный блок демо -->
+    <section class="mx-auto max-w-7xl px-4 pb-10 pt-10 sm:px-6 lg:px-8 lg:pb-14 lg:pt-16">
+      <div class="grid gap-10 lg:grid-cols-[1fr_0.9fr] lg:items-end">
+        <div>
+          <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-accent"></span><span data-i18n="hero.eyebrow">Живые примеры AiElement</span></div>
+          <h1 class="mt-6 font-heading text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl" data-i18n="hero.title">Демо-система, которую можно открыть прямо сейчас</h1>
+          <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-300" data-i18n="hero.description">Чтобы вы увидели не просто обещание, а реальную механику, наша команда подготовила демо-отель, Telegram-бота и примеры того, как заявки приходят в рабочий контур бизнеса.</p>
+          <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+            <a href="https://hotel-bot-web-production.up.railway.app/" target="_blank" rel="noreferrer" class="btn-primary rounded-full px-6 py-4 text-center text-sm font-semibold transition" data-i18n="hero.primaryCta">Открыть демо-отель</a>
+            <a href="https://t.me/Ai_Element_Bot" target="_blank" rel="noreferrer" class="btn-secondary rounded-full px-6 py-4 text-center text-sm font-semibold transition" data-i18n="hero.secondaryCta">Запустить Telegram-бот</a>
+          </div>
+        </div>
+        <div class="glass-card rounded-[32px] p-6 sm:p-8">
+          <div class="text-sm text-slate-400" data-i18n="hero.panelLabel">Что вы увидите в демо</div>
+          <div class="mt-4 space-y-4">
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-5" data-i18n="hero.panelPoint1">Как сайт собирает прямой спрос без агрегаторов.</div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-5" data-i18n="hero.panelPoint2">Как бот быстро отвечает клиенту и получает вводные.</div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-5" data-i18n="hero.panelPoint3">Как команда получает готовые заявки в Telegram.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ИЗМЕНИ ЗДЕСЬ: живые примеры и скриншоты -->
+    <section class="mx-auto max-w-7xl px-4 pb-10 sm:px-6 lg:px-8 lg:pb-16">
+      <div class="grid gap-6 lg:grid-cols-2">
+        <article class="demo-frame rounded-[32px] p-4 sm:p-5">
+          <img src="assets/hotel-demo.svg" alt="Демо отеля" class="w-full rounded-[26px]">
+          <div class="mt-5 px-2">
+            <h2 class="font-heading text-2xl font-bold" data-i18n="gallery.card1Title">Демо-отель: интерфейс прямого бронирования</h2>
+            <p class="mt-3 text-slate-300" data-i18n="gallery.card1Text">Сайт показывает номера, условия и переводит посетителя в быстрый сценарий заявки без лишних шагов.</p>
+          </div>
+        </article>
+        <article class="demo-frame rounded-[32px] p-4 sm:p-5">
+          <img src="assets/telegram-leads.svg" alt="Telegram лиды" class="w-full rounded-[26px]">
+          <div class="mt-5 px-2">
+            <h2 class="font-heading text-2xl font-bold" data-i18n="gallery.card2Title">Скриншоты заявок в Telegram</h2>
+            <p class="mt-3 text-slate-300" data-i18n="gallery.card2Text">Менеджер получает не хаотичный поток сообщений, а структурированные лиды с понятным следующим шагом.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8 lg:pb-20">
+      <div class="glass-card rounded-[32px] p-8 sm:p-10">
+        <div class="max-w-3xl">
+          <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-growth"></span><span data-i18n="how.eyebrow">Как это работает на практике</span></div>
+          <h2 class="mt-6 font-heading text-3xl font-bold sm:text-4xl" data-i18n="how.title">Коротко: клиенту удобно, бизнесу прозрачно, команде легче</h2>
+          <p class="mt-4 text-lg text-slate-300" data-i18n="how.description">Наша команда выстраивает такой маршрут, где клиент быстро получает ответ, оставляет заявку и не теряется между каналами. Дальше система сама двигает его к следующему действию.</p>
+        </div>
+        <div class="mt-10 grid gap-5 md:grid-cols-3">
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-4xl font-bold text-accent">01</div><h3 class="mt-4 text-xl font-semibold" data-i18n="how.step1Title">Открывает страницу или бота</h3><p class="mt-3 text-slate-300" data-i18n="how.step1Text">Человек заходит туда, где ему удобно, и сразу видит понятное предложение.</p></div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-4xl font-bold text-accent">02</div><h3 class="mt-4 text-xl font-semibold" data-i18n="how.step2Title">Получает быстрые ответы</h3><p class="mt-3 text-slate-300" data-i18n="how.step2Text">Сценарий задаёт нужные вопросы и снимает возражения без задержки.</p></div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-4xl font-bold text-growth">03</div><h3 class="mt-4 text-xl font-semibold" data-i18n="how.step3Title">Лид приходит команде</h3><p class="mt-3 text-slate-300" data-i18n="how.step3Text">Заявка попадает в Telegram уже в структурированном виде, чтобы менеджер не тратил время на сбор деталей.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
+      <div><div class="font-heading text-2xl font-bold">AiElement</div><p class="mt-3 max-w-xl text-slate-400" data-i18n="footer.description">Наша команда создаёт AI-системы продаж и сервиса для бизнеса: сайты, боты, автоматизацию заявок и сценарии роста выручки.</p></div>
+      <div class="grid gap-3 sm:grid-cols-3"><a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link1">Услуги</a><a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link2">Кейсы</a><a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link3">Контакты</a></div>
+    </div>
+    <div class="border-t border-white/10"><div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-sm text-slate-500 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8"><div data-i18n="footer.copy">AiElement. Команда разработчиков ИИ-решений для бизнеса.</div><div>&copy; <span data-year></span> AiElement</div></div></div>
+  </footer>
+
+  <a href="https://t.me/Ai_Element_Bot" target="_blank" rel="noreferrer" class="floating-cta btn-primary fixed bottom-5 right-5 z-40 rounded-full px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5" data-i18n="floating.demo">Демо в боте</a>
+</body>
+</html>

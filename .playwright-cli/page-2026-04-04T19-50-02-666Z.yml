@@ -1,0 +1,84 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - 'link "AiElement РР-СЂРµС€РµРЅРёСЏ РґР»СЏ Р±РёР·РЅРµСЃР°" [ref=e4] [cursor=pointer]':
+        - /url: index.html
+        - generic [ref=e7]:
+          - generic [ref=e8]: AiElement
+          - generic [ref=e9]: "Р\x98Р\x98-СЂРµС€РµРЅРёСЏ РґР»СЏ Р±РёР·РЅРµСЃР°"
+      - button "Открыть меню" [ref=e87] [cursor=pointer]:
+        - img [ref=e88]
+  - main [ref=e23]:
+    - generic [ref=e25]:
+      - generic [ref=e28]: РЎРІСЏР·Р°С‚СЊСЃСЏ СЃ РєРѕРјР°РЅРґРѕР№
+      - heading "Р Р°СЃСЃРєР°Р¶РёС‚Рµ Рѕ Р±РёР·РЅРµСЃРµ, Рё РјС‹ РїРѕРєР°Р¶РµРј СЃРёСЃС‚РµРјСѓ СЂРѕСЃС‚Р° РїРѕРґ РІР°СЃ" [level=1] [ref=e29]
+      - paragraph [ref=e30]: РњРѕР¶РЅРѕ РѕСЃС‚Р°РІРёС‚СЊ Р·Р°СЏРІРєСѓ РІ С„РѕСЂРјРµ РёР»Рё СЃСЂР°Р·Сѓ РїРµСЂРµР№С‚Рё РІ Telegram. РќР°С€Р° РєРѕРјР°РЅРґР° Р±С‹СЃС‚СЂРѕ РїРѕРґСЃРєР°Р¶РµС‚, РєР°РєРѕР№ СЃС†РµРЅР°СЂРёР№ РґР°СЃС‚ Р±РѕР»СЊС€Рµ РїСЂСЏРјС‹С… Р±СЂРѕРЅРёСЂРѕРІР°РЅРёР№, Р·Р°СЏРІРѕРє Рё РІС‹СЂСѓС‡РєРё.
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: Быстрые каналы связи
+        - heading "Выберите удобный канал или оставьте заявку" [level=2] [ref=e35]
+        - paragraph [ref=e36]: Форма ниже отправляет лид сразу в Telegram и может дополнительно логироваться в CRM. Если удобнее написать напрямую, используйте один из каналов ниже.
+        - generic [ref=e37]:
+          - link "Telegram Написать в Telegram @Ai_Element_Bot" [ref=e38] [cursor=pointer]:
+            - /url: https://t.me/Ai_Element_Bot
+            - generic [ref=e39]: Telegram
+            - strong [ref=e40]: Написать в Telegram
+            - generic [ref=e41]: "@Ai_Element_Bot"
+          - link "WhatsApp Открыть чат WhatsApp +79990000000" [ref=e42] [cursor=pointer]:
+            - /url: https://wa.me/79990000000
+            - generic [ref=e43]: WhatsApp
+            - strong [ref=e44]: Открыть чат WhatsApp
+            - generic [ref=e45]: "+79990000000"
+          - link "Телефон Позвонить команде +79990000000" [ref=e46] [cursor=pointer]:
+            - /url: tel:+79990000000
+            - generic [ref=e47]: Телефон
+            - strong [ref=e48]: Позвонить команде
+            - generic [ref=e49]: "+79990000000"
+          - link "Email Отправить письмо hello@example.com" [ref=e50] [cursor=pointer]:
+            - /url: mailto:hello@example.com
+            - generic [ref=e51]: Email
+            - strong [ref=e52]: Отправить письмо
+            - generic [ref=e53]: hello@example.com
+        - generic [ref=e54]:
+          - link "РЎРЅР°С‡Р°Р»Р° РїРѕСЃРјРѕС‚СЂРµС‚СЊ РґРµРјРѕ" [ref=e55] [cursor=pointer]:
+            - /url: demo.html
+          - paragraph [ref=e56]: Если включите прокси или CRM-логирование, данные из формы можно сохранять дополнительно в Google Apps Script или Firebase без изменения HTML.
+      - generic [ref=e57]:
+        - generic [ref=e58]: Форма заявки
+        - heading "Оставьте контакты, и мы быстро свяжемся" [level=2] [ref=e59]
+        - paragraph [ref=e60]: "После отправки заявка уходит в Telegram мгновенно, а дополнительные интеграции можно включить через конфиг в `site.js`."
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]: Имя
+            - textbox "Имя" [ref=e64]:
+              - /placeholder: Ваше имя
+              - text: Alex
+          - generic [ref=e65]:
+            - generic [ref=e66]: Контакт для связи
+            - textbox "Контакт для связи" [ref=e67]:
+              - /placeholder: Телефон, Telegram, WhatsApp
+              - text: "+79990000000"
+          - generic [ref=e68]:
+            - generic [ref=e69]: Сообщение
+            - textbox "Сообщение" [ref=e70]:
+              - /placeholder: Коротко опишите запрос
+          - textbox [ref=e71]
+          - status [ref=e92]: "Форма не настроена: добавьте bot token и chat id в конфиг `site.js` или подключите прокси."
+          - button "Отправить заявку" [ref=e72] [cursor=pointer]
+  - contentinfo [ref=e73]:
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]: AiElement
+        - paragraph [ref=e77]: "РќР°С€Р° РєРѕРјР°РЅРґР° СЃРѕР·РґР°С‘С‚ AI-СЃРёСЃС‚РµРјС‹ РїСЂРѕРґР°Р¶ Рё СЃРµСЂРІРёСЃР° РґР»СЏ Р±РёР·РЅРµСЃР°: СЃР°Р№С‚С‹, Р±РѕС‚С‹, Р°РІС‚РѕРјР°С‚РёР·Р°С†РёСЋ Р·Р°СЏРІРѕРє Рё СЃС†РµРЅР°СЂРёРё СЂРѕСЃС‚Р° РІС‹СЂСѓС‡РєРё."
+      - generic [ref=e78]:
+        - link "РЈСЃР»СѓРіРё" [ref=e79] [cursor=pointer]:
+          - /url: services.html
+        - link "РљРµР№СЃС‹" [ref=e80] [cursor=pointer]:
+          - /url: cases.html
+        - link "РљРѕРЅС‚Р°РєС‚С‹" [ref=e81] [cursor=pointer]:
+          - /url: contact.html
+    - generic [ref=e83]:
+      - generic [ref=e84]: "AiElement. РљРѕРјР°РЅРґР° СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРѕРІ Р\x98Р\x98-СЂРµС€РµРЅРёР№ РґР»СЏ Р±РёР·РЅРµСЃР°."
+      - generic [ref=e85]: © 2026 AiElement
+  - link "Р”РµРјРѕ РІ Р±РѕС‚Рµ" [ref=e86] [cursor=pointer]:
+    - /url: https://t.me/Ai_Element_Bot

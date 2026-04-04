@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AiElement | Как мы работаем</title>
+  <meta name="description" content="Как команда AiElement работает над AI-системами для бизнеса: от диагностики до запуска и поддержки.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/tailwind.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/translations.js"></script>
+  <script defer src="assets/site.js"></script>
+</head>
+<body class="bg-base font-body text-white antialiased" data-page="how">
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="orb orb-cyan left-[-8rem] top-14 h-72 w-72"></div>
+    <div class="orb orb-green right-[-7rem] top-64 h-80 w-80"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#0a0a0a]/85 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <span class="flex h-11 w-11 items-center justify-center rounded-2xl border border-accent/40 bg-accent/10 shadow-[0_0_32px_rgba(0,240,255,0.2)]"><span class="h-4 w-4 rounded-sm bg-accent"></span></span>
+        <div><div class="font-heading text-lg font-bold tracking-wide">AiElement</div><div class="text-xs text-slate-400" data-i18n="nav.tagline">ИИ-решения для бизнеса</div></div>
+      </a>
+      <nav class="hidden items-center gap-6 text-sm lg:flex">
+        <a href="index.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.home">Главная</a>
+        <a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.services">Услуги</a>
+        <a href="demo.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.demo">Демо</a>
+        <a href="how.html" class="text-white" data-i18n="nav.how">Как мы работаем</a>
+        <a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.cases">Кейсы</a>
+        <a href="pricing.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.pricing">Цены</a>
+        <a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.contact">Контакты</a>
+      </nav>
+      <div class="hidden items-center gap-3 lg:flex">
+        <div class="lang-switch" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="demo.html" class="btn-primary rounded-full px-5 py-3 text-sm font-semibold transition" data-i18n="nav.launchDemo">Запустить демо</a>
+      </div>
+      <button type="button" class="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/5 lg:hidden" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+    <div class="mobile-menu-backdrop lg:hidden" data-menu-backdrop hidden></div>
+    <div id="mobile-menu" class="mobile-menu-panel lg:hidden" data-mobile-menu aria-hidden="true" hidden>
+      <div class="p-4 sm:p-5">
+        <div class="mb-4 flex items-start justify-between gap-4">
+          <div>
+            <div class="font-heading text-lg font-bold tracking-wide">AiElement</div>
+            <div class="mt-1 text-xs text-slate-400" data-i18n="nav.tagline">ИИ-решения для бизнеса</div>
+          </div>
+          <button type="button" class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5" data-menu-close aria-label="Close menu">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18"></path></svg>
+          </button>
+        </div>
+        <div class="lang-switch mobile-lang-switch mb-4" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <nav class="flex flex-col gap-1 text-sm">
+          <a href="index.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.home">Главная</a>
+          <a href="services.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.services">Услуги</a>
+          <a href="demo.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.demo">Демо</a>
+          <a href="how.html" class="rounded-2xl bg-white/5 px-4 py-3 text-white" data-i18n="nav.how">Как мы работаем</a>
+          <a href="cases.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.cases">Кейсы</a>
+          <a href="pricing.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.pricing">Цены</a>
+          <a href="contact.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.contact">Контакты</a>
+        </nav>
+        <a href="demo.html" class="btn-primary mt-4 block rounded-2xl px-4 py-3 text-center text-sm font-semibold transition" data-i18n="nav.launchDemo">Запустить демо</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ИЗМЕНИ ЗДЕСЬ: описание процесса -->
+    <section class="mx-auto max-w-7xl px-4 pb-10 pt-10 sm:px-6 lg:px-8 lg:pb-14 lg:pt-16">
+      <div class="max-w-4xl">
+        <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-accent"></span><span data-i18n="hero.eyebrow">Как работает наша команда</span></div>
+        <h1 class="mt-6 font-heading text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl" data-i18n="hero.title">Прозрачный процесс: от идеи до системы, которая приводит клиентов</h1>
+        <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-300" data-i18n="hero.description">Мы не теряемся в бесконечных согласованиях. Наша команда ведёт проект короткими, понятными шагами, где каждый этап двигает вас к рабочей системе продаж.</p>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8 lg:pb-20">
+      <div class="grid gap-5 lg:grid-cols-[0.34fr_0.66fr]">
+        <div class="glass-card rounded-[32px] p-8">
+          <div class="text-sm text-slate-400" data-i18n="aside.label">Результат на выходе</div>
+          <h2 class="mt-4 font-heading text-3xl font-bold" data-i18n="aside.title">Не набор файлов, а готовый маршрут клиента</h2>
+          <p class="mt-4 text-slate-300" data-i18n="aside.text">Сайт, бот, контент, сценарии заявок, уведомления и точки роста работают как единая система. Именно поэтому запуск ощущается как появление нового отдела продаж.</p>
+        </div>
+
+        <div class="space-y-5">
+          <article class="glass-card rounded-[32px] p-7"><div class="flex flex-col gap-6 md:flex-row"><div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-accent/10 text-2xl font-bold text-accent">01</div><div><h3 class="text-2xl font-semibold" data-i18n="steps.step1Title">Диагностика и цель роста</h3><p class="mt-3 text-slate-300" data-i18n="steps.step1Text">Мы разбираем, где теряются клиенты, как сейчас приходят заявки и какой сценарий принесёт вам больше прямых обращений.</p></div></div></article>
+          <article class="glass-card rounded-[32px] p-7"><div class="flex flex-col gap-6 md:flex-row"><div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-accent/10 text-2xl font-bold text-accent">02</div><div><h3 class="text-2xl font-semibold" data-i18n="steps.step2Title">Архитектура системы</h3><p class="mt-3 text-slate-300" data-i18n="steps.step2Text">Наша команда проектирует структуру сайта, механику бота, логику заявок и точки уведомлений для вашей команды.</p></div></div></article>
+          <article class="glass-card rounded-[32px] p-7"><div class="flex flex-col gap-6 md:flex-row"><div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-accent/10 text-2xl font-bold text-accent">03</div><div><h3 class="text-2xl font-semibold" data-i18n="steps.step3Title">Дизайн и тексты под конверсию</h3><p class="mt-3 text-slate-300" data-i18n="steps.step3Text">Создаём премиальный визуал и тексты, которые ведут к действию, а не просто "красиво выглядят".</p></div></div></article>
+          <article class="glass-card rounded-[32px] p-7"><div class="flex flex-col gap-6 md:flex-row"><div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-accent/10 text-2xl font-bold text-accent">04</div><div><h3 class="text-2xl font-semibold" data-i18n="steps.step4Title">Разработка и связка каналов</h3><p class="mt-3 text-slate-300" data-i18n="steps.step4Text">Поднимаем сайт, ботов, сценарии, кнопки и уведомления так, чтобы они работали как единая воронка.</p></div></div></article>
+          <article class="glass-card rounded-[32px] p-7"><div class="flex flex-col gap-6 md:flex-row"><div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-growth/10 text-2xl font-bold text-growth">05</div><div><h3 class="text-2xl font-semibold" data-i18n="steps.step5Title">Тестирование на реальном сценарии</h3><p class="mt-3 text-slate-300" data-i18n="steps.step5Text">Проверяем путь клиента от первого экрана до заявки, чтобы убрать трение до запуска.</p></div></div></article>
+          <article class="glass-card rounded-[32px] p-7"><div class="flex flex-col gap-6 md:flex-row"><div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-growth/10 text-2xl font-bold text-growth">06</div><div><h3 class="text-2xl font-semibold" data-i18n="steps.step6Title">Запуск и рост</h3><p class="mt-3 text-slate-300" data-i18n="steps.step6Text">После публикации помогаем усиливать систему: контентом, SEO, доработками и новыми сценариями роста.</p></div></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
+      <div><div class="font-heading text-2xl font-bold">AiElement</div><p class="mt-3 max-w-xl text-slate-400" data-i18n="footer.description">Наша команда создаёт AI-системы продаж и сервиса для бизнеса: сайты, боты, автоматизацию заявок и сценарии роста выручки.</p></div>
+      <div class="grid gap-3 sm:grid-cols-3"><a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link1">Услуги</a><a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link2">Кейсы</a><a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link3">Контакты</a></div>
+    </div>
+    <div class="border-t border-white/10"><div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-sm text-slate-500 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8"><div data-i18n="footer.copy">AiElement. Команда разработчиков ИИ-решений для бизнеса.</div><div>&copy; <span data-year></span> AiElement</div></div></div>
+  </footer>
+
+  <a href="https://t.me/Ai_Element_Bot" target="_blank" rel="noreferrer" class="floating-cta btn-primary fixed bottom-5 right-5 z-40 rounded-full px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5" data-i18n="floating.demo">Демо в боте</a>
+</body>
+</html>

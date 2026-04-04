@@ -1,0 +1,5 @@
+[    1062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/favicon.ico:0
+[  564656ms] [ERROR] AiElement lead form error: Error: Форма не настроена: добавьте bot token и chat id в конфиг `site.js` или подключите прокси.
+    at sendLeadToTelegram (http://127.0.0.1:4173/assets/site.js:626:31)
+    at submitLead (http://127.0.0.1:4173/assets/site.js:676:7)
+    at HTMLDocument.handleFormSubmit (http://127.0.0.1:4173/assets/site.js:713:9) @ http://127.0.0.1:4173/assets/site.js:694

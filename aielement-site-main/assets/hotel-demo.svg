@@ -1,0 +1,51 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="36" fill="#06080F"/>
+  <rect x="28" y="28" width="1344" height="844" rx="28" stroke="#243242" stroke-width="2"/>
+  <rect x="60" y="64" width="1280" height="74" rx="22" fill="#0D1520" stroke="#223142"/>
+  <circle cx="102" cy="101" r="8" fill="#FF5F57"/>
+  <circle cx="132" cy="101" r="8" fill="#FEBC2E"/>
+  <circle cx="162" cy="101" r="8" fill="#28C840"/>
+  <text x="214" y="110" fill="#F6FAFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Отель Horizon Suites</text>
+  <text x="1060" y="110" fill="#00F0FF" font-family="Arial, sans-serif" font-size="20" font-weight="700">Дашборд прямых бронирований</text>
+
+  <rect x="70" y="170" width="360" height="226" rx="28" fill="#0D1520" stroke="#223142"/>
+  <text x="98" y="218" fill="#F6FAFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Источники заявок</text>
+  <text x="98" y="258" fill="#93ABC0" font-family="Arial, sans-serif" font-size="20">Сайт, Telegram, повторные гости</text>
+  <rect x="98" y="292" width="300" height="16" rx="8" fill="#182230"/>
+  <rect x="98" y="292" width="212" height="16" rx="8" fill="#00F0FF"/>
+  <text x="98" y="348" fill="#93ABC0" font-family="Arial, sans-serif" font-size="20">Конверсия в бронь</text>
+  <rect x="98" y="378" width="300" height="16" rx="8" fill="#182230"/>
+  <rect x="98" y="378" width="238" height="16" rx="8" fill="#00FF9D"/>
+
+  <rect x="462" y="170" width="868" height="226" rx="28" fill="#091A22" stroke="#164355"/>
+  <text x="492" y="220" fill="#F6FAFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">Сводка по загрузке</text>
+  <text x="492" y="262" fill="#9CD8E0" font-family="Arial, sans-serif" font-size="20">Сайт, бот и CRM работают как единая воронка</text>
+  <rect x="492" y="294" width="226" height="76" rx="22" fill="#0E2531"/>
+  <rect x="744" y="294" width="226" height="76" rx="22" fill="#0E2531"/>
+  <rect x="996" y="294" width="226" height="76" rx="22" fill="#0E2531"/>
+  <text x="520" y="326" fill="#84B4C5" font-family="Arial, sans-serif" font-size="18">Свободных номеров</text>
+  <text x="772" y="326" fill="#84B4C5" font-family="Arial, sans-serif" font-size="18">Новых заявок</text>
+  <text x="1024" y="326" fill="#84B4C5" font-family="Arial, sans-serif" font-size="18">Средний чек</text>
+  <text x="520" y="355" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="34" font-weight="700">18</text>
+  <text x="772" y="355" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="34" font-weight="700">47</text>
+  <text x="1024" y="355" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="34" font-weight="700">12 400 ₽</text>
+
+  <rect x="70" y="430" width="610" height="394" rx="28" fill="#0D1520" stroke="#223142"/>
+  <text x="100" y="482" fill="#F6FAFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Бронирования за неделю</text>
+  <path d="M116 720C174 678 232 650 290 642C348 634 406 656 464 606C522 556 580 504 638 474" stroke="#00F0FF" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="638" cy="474" r="14" fill="#00F0FF"/>
+  <text x="116" y="776" fill="#93ABC0" font-family="Arial, sans-serif" font-size="22">Среднее время ответа</text>
+  <text x="116" y="816" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="54" font-weight="700">58 сек</text>
+
+  <rect x="720" y="430" width="610" height="394" rx="28" fill="#0D1520" stroke="#223142"/>
+  <text x="752" y="482" fill="#F6FAFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Живые лиды</text>
+  <rect x="752" y="526" width="546" height="74" rx="20" fill="#111C28" stroke="#233648"/>
+  <rect x="752" y="620" width="546" height="74" rx="20" fill="#111C28" stroke="#233648"/>
+  <rect x="752" y="714" width="546" height="74" rx="20" fill="#111C28" stroke="#233648"/>
+  <text x="784" y="570" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Новая бронь люкса на выходные</text>
+  <text x="784" y="664" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Гость добавил spa-пакет и трансфер</text>
+  <text x="784" y="758" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Повторный клиент вернулся из Telegram</text>
+  <text x="1140" y="570" fill="#00FF9D" font-family="Arial, sans-serif" font-size="22" font-weight="700">+31 500 ₽</text>
+  <text x="1140" y="664" fill="#00FF9D" font-family="Arial, sans-serif" font-size="22" font-weight="700">+12 000 ₽</text>
+  <text x="1140" y="758" fill="#00FF9D" font-family="Arial, sans-serif" font-size="22" font-weight="700">+8 400 ₽</text>
+</svg>

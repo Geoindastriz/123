@@ -1,0 +1,21 @@
+<svg width="1280" height="780" viewBox="0 0 1280 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="780" rx="34" fill="#070B12"/>
+  <rect x="30" y="30" width="1220" height="720" rx="28" stroke="#223141" stroke-width="2"/>
+  <text x="76" y="118" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="34" font-weight="700">Метрики проекта</text>
+  <text x="76" y="160" fill="#9CC7D8" font-family="Arial, sans-serif" font-size="22">Снимок результатов демо-системы для отеля</text>
+
+  <rect x="76" y="214" width="352" height="210" rx="24" fill="#0B2028" stroke="#10576B"/>
+  <rect x="464" y="214" width="352" height="210" rx="24" fill="#111A25" stroke="#223141"/>
+  <rect x="852" y="214" width="352" height="210" rx="24" fill="#111A25" stroke="#223141"/>
+  <text x="108" y="276" fill="#9CC7D8" font-family="Arial, sans-serif" font-size="22">Прямые обращения</text>
+  <text x="108" y="354" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="78" font-weight="700">+37%</text>
+  <text x="496" y="276" fill="#9CC7D8" font-family="Arial, sans-serif" font-size="22">Потери на комиссиях</text>
+  <text x="496" y="354" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="78" font-weight="700">-18%</text>
+  <text x="884" y="276" fill="#9CC7D8" font-family="Arial, sans-serif" font-size="22">Скорость ответа</text>
+  <text x="884" y="354" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="78" font-weight="700">58с</text>
+
+  <rect x="76" y="478" width="1128" height="190" rx="28" fill="#111A25" stroke="#223141"/>
+  <path d="M128 602C218 590 308 542 398 520C488 498 578 526 668 472C758 418 848 390 938 366C1028 342 1118 298 1152 244" stroke="#00F0FF" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1152" cy="244" r="14" fill="#00F0FF"/>
+  <text x="128" y="544" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Динамика за 7 дней</text>
+</svg>

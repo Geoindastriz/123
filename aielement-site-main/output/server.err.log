@@ -1,0 +1,12 @@
+127.0.0.1 - - [04/Apr/2026 22:07:31] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 22:07:47] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 22:07:47] "GET /assets/tailwind.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 22:07:47] "GET /assets/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 22:07:47] "GET /assets/site.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 22:07:47] "GET /assets/translations.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 22:07:49] code 404, message File not found
+127.0.0.1 - - [04/Apr/2026 22:07:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [04/Apr/2026 22:08:43] "GET /contact.html HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 22:08:43] "GET /assets/tailwind.css HTTP/1.1" 304 -
+127.0.0.1 - - [04/Apr/2026 22:08:43] "GET /assets/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [04/Apr/2026 22:08:43] "GET /assets/site.js HTTP/1.1" 304 -

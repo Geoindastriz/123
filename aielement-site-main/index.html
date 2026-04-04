@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AiElement | Приводим клиентов автоматически</title>
+  <meta name="description" content="AiElement — команда разработчиков ИИ-решений для бизнеса. Создаём системы, которые автоматически приводят прямых клиентов без агрегаторов и потерь.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/tailwind.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/translations.js"></script>
+  <script defer src="assets/site.js"></script>
+</head>
+<body class="bg-base font-body text-white antialiased" data-page="index">
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="orb orb-cyan left-[-8rem] top-16 h-72 w-72"></div>
+    <div class="orb orb-green right-[-6rem] top-56 h-80 w-80"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#0a0a0a]/85 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <!-- ИЗМЕНИ ЗДЕСЬ: логотип и подпись бренда -->
+        <span class="flex h-11 w-11 items-center justify-center rounded-2xl border border-accent/40 bg-accent/10 shadow-[0_0_32px_rgba(0,240,255,0.2)]"><span class="h-4 w-4 rounded-sm bg-accent"></span></span>
+        <div>
+          <div class="font-heading text-lg font-bold tracking-wide">AiElement</div>
+          <div class="text-xs text-slate-400" data-i18n="nav.tagline">ИИ-решения для бизнеса</div>
+        </div>
+      </a>
+      <nav class="hidden items-center gap-6 text-sm lg:flex">
+        <a href="index.html" class="text-white" data-i18n="nav.home">Главная</a>
+        <a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.services">Услуги</a>
+        <a href="demo.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.demo">Демо</a>
+        <a href="how.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.how">Как мы работаем</a>
+        <a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.cases">Кейсы</a>
+        <a href="pricing.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.pricing">Цены</a>
+        <a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.contact">Контакты</a>
+      </nav>
+      <div class="hidden items-center gap-3 lg:flex">
+        <div class="lang-switch" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="demo.html" class="btn-primary rounded-full px-5 py-3 text-sm font-semibold transition" data-i18n="nav.launchDemo">Запустить демо</a>
+      </div>
+      <button type="button" class="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/5 lg:hidden" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+    <div class="mobile-menu-backdrop lg:hidden" data-menu-backdrop hidden></div>
+    <div id="mobile-menu" class="mobile-menu-panel lg:hidden" data-mobile-menu aria-hidden="true" hidden>
+      <div class="p-4 sm:p-5">
+        <div class="mb-4 flex items-start justify-between gap-4">
+          <div>
+            <div class="font-heading text-lg font-bold tracking-wide">AiElement</div>
+            <div class="mt-1 text-xs text-slate-400" data-i18n="nav.tagline">ИИ-решения для бизнеса</div>
+          </div>
+          <button type="button" class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5" data-menu-close aria-label="Close menu">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18"></path></svg>
+          </button>
+        </div>
+        <div class="lang-switch mobile-lang-switch mb-4" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <nav class="flex flex-col gap-1 text-sm">
+          <a href="index.html" class="rounded-2xl bg-white/5 px-4 py-3 text-white" data-i18n="nav.home">Главная</a>
+          <a href="services.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.services">Услуги</a>
+          <a href="demo.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.demo">Демо</a>
+          <a href="how.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.how">Как мы работаем</a>
+          <a href="cases.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.cases">Кейсы</a>
+          <a href="pricing.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.pricing">Цены</a>
+          <a href="contact.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.contact">Контакты</a>
+        </nav>
+        <a href="demo.html" class="btn-primary mt-4 block rounded-2xl px-4 py-3 text-center text-sm font-semibold transition" data-i18n="nav.launchDemo">Запустить демо</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ИЗМЕНИ ЗДЕСЬ: главный заголовок и подзаголовок -->
+    <section class="mx-auto max-w-7xl px-4 pb-16 pt-10 sm:px-6 lg:px-8 lg:pb-24 lg:pt-16">
+      <div class="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr]">
+        <div class="fade-up">
+          <div class="pill mb-6 text-sm font-medium"><span class="h-2 w-2 rounded-full bg-accent"></span><span data-i18n="hero.eyebrow">AiElement / Команда разработчиков ИИ-решений</span></div>
+          <h1 class="max-w-4xl font-heading text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl" data-i18n-html="hero.title">Приводим клиентов автоматически. <span class="text-accent">Без агрегаторов и потерь</span></h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300" data-i18n="hero.description">Наша команда проектирует сайт, бота и сценарии продаж в одну систему, которая приводит прямые заявки, экономит время сотрудников и возвращает контроль над выручкой.</p>
+          <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+            <a href="demo.html" class="btn-primary rounded-full px-6 py-4 text-center text-sm font-semibold transition" data-i18n="hero.primaryCta">Смотреть демо</a>
+            <a href="contact.html" class="btn-secondary rounded-full px-6 py-4 text-center text-sm font-semibold transition" data-i18n="hero.secondaryCta">Обсудить систему под ваш бизнес</a>
+          </div>
+          <div class="mt-10 grid gap-4 sm:grid-cols-3">
+            <div class="glass-card rounded-3xl p-5"><div class="text-sm text-slate-400" data-i18n="hero.metric1Label">Прямые обращения</div><div class="metric-number mt-3 text-3xl font-bold" data-i18n="hero.metric1Value">24/7</div></div>
+            <div class="glass-card rounded-3xl p-5"><div class="text-sm text-slate-400" data-i18n="hero.metric2Label">Комиссии агрегаторов</div><div class="metric-number mt-3 text-3xl font-bold" data-i18n="hero.metric2Value">ниже</div></div>
+            <div class="glass-card rounded-3xl p-5"><div class="text-sm text-slate-400" data-i18n="hero.metric3Label">Скорость ответа</div><div class="metric-number mt-3 text-3xl font-bold" data-i18n="hero.metric3Value">до 1 мин</div></div>
+          </div>
+        </div>
+        <div class="fade-up rounded-[32px] border border-white/10 bg-white/[0.03] p-4 shadow-[0_32px_90px_rgba(0,0,0,0.45)] fade-delay-120">
+          <div class="hero-grid rounded-[28px] border border-accent/15 bg-[#081018] p-6 sm:p-8">
+            <div class="flex items-center justify-between">
+              <div>
+                <div class="text-sm text-slate-400" data-i18n="hero.panelBadge">Система роста выручки</div>
+                <div class="mt-2 font-heading text-2xl font-bold" data-i18n="hero.panelTitle">Сайт + бот + автоматизация</div>
+              </div>
+              <div class="rounded-2xl border border-growth/30 bg-growth/10 px-4 py-2 text-sm font-semibold text-growth" data-i18n="hero.panelTag">Запуск под ключ</div>
+            </div>
+            <div class="mt-8 grid gap-4">
+              <div class="glass-card rounded-3xl p-5"><div class="flex items-start justify-between gap-4"><div><div class="text-sm text-slate-400" data-i18n="hero.flow1Label">1. Трафик попадает в вашу систему</div><div class="mt-2 text-lg font-semibold" data-i18n="hero.flow1Value">Сайт, Telegram, VK или MAX собирают заявки напрямую</div></div><span class="rounded-full border border-accent/25 bg-accent/10 px-3 py-1 text-xs text-accent">01</span></div></div>
+              <div class="glass-card rounded-3xl p-5"><div class="flex items-start justify-between gap-4"><div><div class="text-sm text-slate-400" data-i18n="hero.flow2Label">2. ИИ-логика квалифицирует клиента</div><div class="mt-2 text-lg font-semibold" data-i18n="hero.flow2Value">Система отвечает моментально и подводит к бронированию или заявке</div></div><span class="rounded-full border border-accent/25 bg-accent/10 px-3 py-1 text-xs text-accent">02</span></div></div>
+              <div class="glass-card rounded-3xl p-5"><div class="flex items-start justify-between gap-4"><div><div class="text-sm text-slate-400" data-i18n="hero.flow3Label">3. Команда получает готовый лид</div><div class="mt-2 text-lg font-semibold" data-i18n="hero.flow3Value">Заявки и уведомления прилетают в Telegram без ручной рутины</div></div><span class="rounded-full border border-growth/25 bg-growth/10 px-3 py-1 text-xs text-growth">03</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <div class="section-shell glass-card rounded-[32px] p-8 sm:p-10">
+        <div class="max-w-3xl">
+          <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-growth"></span><span data-i18n="problem.eyebrow">Почему клиенты уходят</span></div>
+          <h2 class="mt-6 font-heading text-3xl font-bold sm:text-4xl" data-i18n="problem.title">Когда нет своей системы продаж, бизнес кормит посредников</h2>
+          <p class="mt-4 text-lg text-slate-300" data-i18n="problem.description">Клиенты хотят написать и забронировать сразу, но упираются в медленные ответы, потерянные заявки и комиссии агрегаторов. Мы закрываем эту дыру системно.</p>
+        </div>
+        <div class="mt-10 grid gap-5 lg:grid-cols-3">
+          <article class="glass-card glass-card-hover rounded-3xl p-6"><div class="text-sm text-accent" data-i18n="problem.card1Label">Потеря горячего спроса</div><h3 class="mt-3 text-xl font-semibold" data-i18n="problem.card1Title">Клиент не ждёт ответа менеджера</h3><p class="mt-3 text-slate-300" data-i18n="problem.card1Text">Если человеку неудобно написать, уточнить цену или условия в один клик, он уходит туда, где ответ быстрее.</p></article>
+          <article class="glass-card glass-card-hover rounded-3xl p-6"><div class="text-sm text-accent" data-i18n="problem.card2Label">Комиссии и зависимость</div><h3 class="mt-3 text-xl font-semibold" data-i18n="problem.card2Title">Каждая бронь обходится дороже</h3><p class="mt-3 text-slate-300" data-i18n="problem.card2Text">Агрегаторы помогают в старте, но съедают прибыль и не дают строить прямые отношения с клиентом.</p></article>
+          <article class="glass-card glass-card-hover rounded-3xl p-6"><div class="text-sm text-accent" data-i18n="problem.card3Label">Ручная рутина</div><h3 class="mt-3 text-xl font-semibold" data-i18n="problem.card3Title">Команда тонет в повторяющихся сообщениях</h3><p class="mt-3 text-slate-300" data-i18n="problem.card3Text">Вопросы о свободных слотах, ценах и услугах забирают время у продаж и сервиса.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <div class="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+        <div class="glass-card rounded-[32px] p-8 sm:p-10">
+          <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-accent"></span><span data-i18n="solution.eyebrow">Решение AiElement</span></div>
+          <h2 class="mt-6 font-heading text-3xl font-bold sm:text-4xl" data-i18n="solution.title">Наша команда собирает цифровой отдел продаж, который работает 24/7</h2>
+          <p class="mt-4 text-lg text-slate-300" data-i18n="solution.description">Мы создаём связку из сайта, бота, сценариев квалификации и уведомлений. В результате клиент быстрее принимает решение, а ваши разработчики и менеджеры видят всю воронку как на ладони.</p>
+          <div class="line-accent my-8"></div>
+          <ul class="space-y-4 text-slate-200">
+            <li class="flex gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-accent"></span><span data-i18n="solution.point1">Единый стиль бренда и продающий UX вместо шаблонного сайта "как у всех".</span></li>
+            <li class="flex gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-accent"></span><span data-i18n="solution.point2">Автоматический сбор заявок, дат, услуг и контактных данных без потери деталей.</span></li>
+            <li class="flex gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-growth"></span><span data-i18n="solution.point3">Уведомления в Telegram и сценарии роста: допродажи, напоминания, возвращение клиента.</span></li>
+          </ul>
+        </div>
+        <div class="glass-card rounded-[32px] p-8 sm:p-10">
+          <div class="grid gap-4 md:grid-cols-2">
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-sm text-slate-400" data-i18n="solution.module1Label">Сайт</div><div class="mt-3 text-xl font-semibold" data-i18n="solution.module1Title">Захватывает прямой спрос</div><p class="mt-3 text-slate-300" data-i18n="solution.module1Text">Лендинг или сайт под ключ, который не просто показывает услуги, а ведёт к действию.</p></div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-sm text-slate-400" data-i18n="solution.module2Label">Боты</div><div class="mt-3 text-xl font-semibold" data-i18n="solution.module2Title">Отвечают сразу и без ошибок</div><p class="mt-3 text-slate-300" data-i18n="solution.module2Text">Telegram, VK и MAX закрывают рутинные вопросы и собирают квалифицированный интерес.</p></div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-sm text-slate-400" data-i18n="solution.module3Label">Автоматизация</div><div class="mt-3 text-xl font-semibold" data-i18n="solution.module3Title">Связывает команду и заявки</div><p class="mt-3 text-slate-300" data-i18n="solution.module3Text">Система отправляет нужные уведомления, фиксирует лиды и убирает ручные потери.</p></div>
+            <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-sm text-slate-400" data-i18n="solution.module4Label">Рост</div><div class="mt-3 text-xl font-semibold" data-i18n="solution.module4Title">Помогает выручке расти</div><p class="mt-3 text-slate-300" data-i18n="solution.module4Text">Допуслуги, ретаргетинг, повторные касания и SEO помогают получать больше прямых клиентов.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <div class="glass-card rounded-[32px] p-8 sm:p-10">
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-accent"></span><span data-i18n="flow.eyebrow">Как это работает</span></div>
+            <h2 class="mt-6 font-heading text-3xl font-bold sm:text-4xl" data-i18n="flow.title">Одна система ведёт клиента от интереса до оплаты</h2>
+          </div>
+          <p class="max-w-xl text-slate-300" data-i18n="flow.description">Мы не продаём разрозненные инструменты. Наша команда собирает единый маршрут, где каждый шаг подталкивает к прямому обращению.</p>
+        </div>
+        <div class="mt-10 grid gap-5 xl:grid-cols-4">
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-4xl font-bold text-accent">01</div><h3 class="mt-4 text-xl font-semibold" data-i18n="flow.step1Title">Клиент видит предложение</h3><p class="mt-3 text-slate-300" data-i18n="flow.step1Text">Из поиска, рекламы или соцсетей человек попадает сразу в ваш канал конверсии.</p></div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-4xl font-bold text-accent">02</div><h3 class="mt-4 text-xl font-semibold" data-i18n="flow.step2Title">Сайт или бот задаёт нужные вопросы</h3><p class="mt-3 text-slate-300" data-i18n="flow.step2Text">Даты, формат услуги, количество гостей, бюджет или адрес собираются автоматически.</p></div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-4xl font-bold text-accent">03</div><h3 class="mt-4 text-xl font-semibold" data-i18n="flow.step3Title">Система подталкивает к действию</h3><p class="mt-3 text-slate-300" data-i18n="flow.step3Text">Клиент видит релевантное предложение и быстрый путь к бронированию или заявке.</p></div>
+          <div class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-4xl font-bold text-growth">04</div><h3 class="mt-4 text-xl font-semibold" data-i18n="flow.step4Title">Команда получает готовую сделку</h3><p class="mt-3 text-slate-300" data-i18n="flow.step4Text">Уведомления, статусы и следующий шаг сразу приходят туда, где менеджеры уже работают.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-5">
+        <article class="glass-card glass-card-hover rounded-[28px] p-6"><div class="text-sm text-accent" data-i18n="benefits.card1Label">Больше прямых заявок</div><h3 class="mt-3 text-xl font-semibold" data-i18n="benefits.card1Title">Не отдаёте трафик посредникам</h3><p class="mt-3 text-slate-300" data-i18n="benefits.card1Text">Собственная система превращает интерес в ваш актив, а не в чужую базу.</p></article>
+        <article class="glass-card glass-card-hover rounded-[28px] p-6"><div class="text-sm text-accent" data-i18n="benefits.card2Label">Экономия времени</div><h3 class="mt-3 text-xl font-semibold" data-i18n="benefits.card2Title">Боты забирают рутину</h3><p class="mt-3 text-slate-300" data-i18n="benefits.card2Text">Частые вопросы, выбор даты и первичная квалификация происходят автоматически.</p></article>
+        <article class="glass-card glass-card-hover rounded-[28px] p-6"><div class="text-sm text-accent" data-i18n="benefits.card3Label">Рост выручки</div><h3 class="mt-3 text-xl font-semibold" data-i18n="benefits.card3Title">Система предлагает допродажи</h3><p class="mt-3 text-slate-300" data-i18n="benefits.card3Text">Апсейлы и повторные касания помогают поднимать средний чек.</p></article>
+        <article class="glass-card glass-card-hover rounded-[28px] p-6"><div class="text-sm text-accent" data-i18n="benefits.card4Label">Контроль</div><h3 class="mt-3 text-xl font-semibold" data-i18n="benefits.card4Title">Воронка понятна по шагам</h3><p class="mt-3 text-slate-300" data-i18n="benefits.card4Text">Наша команда проектирует систему так, чтобы вы видели, где растут заявки и где теряются деньги.</p></article>
+        <article class="glass-card glass-card-hover rounded-[28px] p-6"><div class="text-sm text-accent" data-i18n="benefits.card5Label">Скорость запуска</div><h3 class="mt-3 text-xl font-semibold" data-i18n="benefits.card5Title">Премиум-реализация под ключ</h3><p class="mt-3 text-slate-300" data-i18n="benefits.card5Text">От концепции до первого демо и наполнения контентом без распыления подрядчиков.</p></article>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+      <div class="glass-card rounded-[32px] p-8 sm:p-10">
+        <div class="max-w-3xl">
+          <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-growth"></span><span data-i18n="usecases.eyebrow">Кому особенно подходит</span></div>
+          <h2 class="mt-6 font-heading text-3xl font-bold sm:text-4xl" data-i18n="usecases.title">Где наша команда особенно быстро создаёт рост</h2>
+        </div>
+        <div class="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+          <article class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-sm text-accent" data-i18n="usecases.card1Label">Отели</div><h3 class="mt-3 text-2xl font-semibold" data-i18n="usecases.card1Title">Больше прямых бронирований</h3><p class="mt-3 text-slate-300" data-i18n="usecases.card1Text">Убираем трение между выбором номера и подтверждением заявки.</p></article>
+          <article class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-sm text-accent" data-i18n="usecases.card2Label">Рестораны</div><h3 class="mt-3 text-2xl font-semibold" data-i18n="usecases.card2Title">Резервы и события без хаоса</h3><p class="mt-3 text-slate-300" data-i18n="usecases.card2Text">Боты собирают бронь, число гостей и пожелания до того, как менеджер откроет чат.</p></article>
+          <article class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-sm text-accent" data-i18n="usecases.card3Label">Салоны красоты</div><h3 class="mt-3 text-2xl font-semibold" data-i18n="usecases.card3Title">Запись и возвращаемость клиентов</h3><p class="mt-3 text-slate-300" data-i18n="usecases.card3Text">Автоматические записи, напоминания и допродажи услуг разгружают администраторов.</p></article>
+          <article class="rounded-3xl border border-white/10 bg-white/5 p-6"><div class="text-sm text-accent" data-i18n="usecases.card4Label">Услуги</div><h3 class="mt-3 text-2xl font-semibold" data-i18n="usecases.card4Title">Лиды, которые уже готовы общаться</h3><p class="mt-3 text-slate-300" data-i18n="usecases.card4Text">Собираем вводные по задаче, бюджету и срокам до первого звонка.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-20">
+      <div class="rounded-[32px] border border-accent/20 bg-gradient-to-br from-accent/10 via-white/[0.04] to-growth/10 p-8 sm:p-10 lg:p-14">
+        <div class="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+          <div>
+            <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-accent"></span><span data-i18n="cta.eyebrow">Система, которая автоматически приводит прямых клиентов</span></div>
+            <h2 class="mt-6 font-heading text-3xl font-bold sm:text-4xl lg:text-5xl" data-i18n="cta.title">Если хотите расти без комиссий и ручного хаоса, наша команда уже готова показать демо</h2>
+            <p class="mt-4 max-w-2xl text-lg text-slate-200" data-i18n="cta.description">Покажем, как это будет работать именно в вашем бизнесе: от первого касания до уведомления менеджеру в Telegram.</p>
+          </div>
+          <div class="flex flex-col gap-4">
+            <a href="demo.html" class="btn-primary rounded-full px-6 py-4 text-center text-sm font-semibold transition" data-i18n="cta.primary">Запустить демо</a>
+            <a href="contact.html" class="btn-growth rounded-full px-6 py-4 text-center text-sm font-semibold transition" data-i18n="cta.secondary">Получить консультацию команды</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
+      <div>
+        <div class="font-heading text-2xl font-bold">AiElement</div>
+        <p class="mt-3 max-w-xl text-slate-400" data-i18n="footer.description">Наша команда создаёт AI-системы продаж и сервиса для бизнеса: сайты, боты, автоматизацию заявок и сценарии роста выручки.</p>
+      </div>
+      <div class="grid gap-3 sm:grid-cols-3">
+        <a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link1">Услуги</a>
+        <a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link2">Кейсы</a>
+        <a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link3">Контакты</a>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-sm text-slate-500 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+        <div data-i18n="footer.copy">AiElement. Команда разработчиков ИИ-решений для бизнеса.</div>
+        <div>&copy; <span data-year></span> AiElement</div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://t.me/Ai_Element_Bot" target="_blank" rel="noreferrer" class="floating-cta btn-primary fixed bottom-5 right-5 z-40 rounded-full px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5" data-i18n="floating.demo">Демо в боте</a>
+</body>
+</html>

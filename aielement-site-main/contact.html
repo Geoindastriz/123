@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AiElement | РљРѕРЅС‚Р°РєС‚С‹</title>
+  <meta name="description" content="РЎРІСЏР·Р°С‚СЊСЃСЏ СЃ РєРѕРјР°РЅРґРѕР№ AiElement: С„РѕСЂРјР° Р·Р°СЏРІРєРё, Telegram-Р±РѕС‚ Рё Р±С‹СЃС‚СЂС‹Р№ РїСѓС‚СЊ Рє РѕР±СЃСѓР¶РґРµРЅРёСЋ AI-СЃРёСЃС‚РµРјС‹ РґР»СЏ Р±РёР·РЅРµСЃР°.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/tailwind.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/translations.js"></script>
+  <script defer src="assets/site.js"></script>
+</head>
+<body class="bg-base font-body text-white antialiased" data-page="contact">
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="orb orb-cyan left-[-8rem] top-20 h-72 w-72"></div>
+    <div class="orb orb-green right-[-6rem] top-64 h-80 w-80"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#0a0a0a]/85 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <span class="flex h-11 w-11 items-center justify-center rounded-2xl border border-accent/40 bg-accent/10 shadow-[0_0_32px_rgba(0,240,255,0.2)]"><span class="h-4 w-4 rounded-sm bg-accent"></span></span>
+        <div><div class="font-heading text-lg font-bold tracking-wide">AiElement</div><div class="text-xs text-slate-400" data-i18n="nav.tagline">РР-СЂРµС€РµРЅРёСЏ РґР»СЏ Р±РёР·РЅРµСЃР°</div></div>
+      </a>
+      <nav class="hidden items-center gap-6 text-sm lg:flex">
+        <a href="index.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.home">Р“Р»Р°РІРЅР°СЏ</a>
+        <a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.services">РЈСЃР»СѓРіРё</a>
+        <a href="demo.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.demo">Р”РµРјРѕ</a>
+        <a href="how.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.how">РљР°Рє РјС‹ СЂР°Р±РѕС‚Р°РµРј</a>
+        <a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.cases">РљРµР№СЃС‹</a>
+        <a href="pricing.html" class="text-slate-300 transition hover:text-white" data-i18n="nav.pricing">Р¦РµРЅС‹</a>
+        <a href="contact.html" class="text-white" data-i18n="nav.contact">РљРѕРЅС‚Р°РєС‚С‹</a>
+      </nav>
+      <div class="hidden items-center gap-3 lg:flex">
+        <div class="lang-switch" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-1 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="demo.html" class="btn-primary rounded-full px-5 py-3 text-sm font-semibold transition" data-i18n="nav.launchDemo">Р—Р°РїСѓСЃС‚РёС‚СЊ РґРµРјРѕ</a>
+      </div>
+      <button type="button" class="flex h-11 w-11 items-center justify-center rounded-2xl border border-white/10 bg-white/5 lg:hidden" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+    <div class="mobile-menu-backdrop lg:hidden" data-menu-backdrop hidden></div>
+    <div id="mobile-menu" class="mobile-menu-panel lg:hidden" data-mobile-menu aria-hidden="true" hidden>
+      <div class="p-4 sm:p-5">
+        <div class="mb-4 flex items-start justify-between gap-4">
+          <div>
+            <div class="font-heading text-lg font-bold tracking-wide">AiElement</div>
+            <div class="mt-1 text-xs text-slate-400" data-i18n="nav.tagline">РР-СЂРµС€РµРЅРёСЏ РґР»СЏ Р±РёР·РЅРµСЃР°</div>
+          </div>
+          <button type="button" class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5" data-menu-close aria-label="Close menu">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18"></path></svg>
+          </button>
+        </div>
+        <div class="lang-switch mobile-lang-switch mb-4" data-language-switch>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" class="rounded-full px-3 py-2 text-sm transition text-slate-400" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <nav class="flex flex-col gap-1 text-sm">
+          <a href="index.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.home">Р“Р»Р°РІРЅР°СЏ</a>
+          <a href="services.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.services">РЈСЃР»СѓРіРё</a>
+          <a href="demo.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.demo">Р”РµРјРѕ</a>
+          <a href="how.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.how">РљР°Рє РјС‹ СЂР°Р±РѕС‚Р°РµРј</a>
+          <a href="cases.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.cases">РљРµР№СЃС‹</a>
+          <a href="pricing.html" class="rounded-2xl px-4 py-3 text-slate-300" data-i18n="nav.pricing">Р¦РµРЅС‹</a>
+          <a href="contact.html" class="rounded-2xl bg-white/5 px-4 py-3 text-white" data-i18n="nav.contact">РљРѕРЅС‚Р°РєС‚С‹</a>
+        </nav>
+        <a href="demo.html" class="btn-primary mt-4 block rounded-2xl px-4 py-3 text-center text-sm font-semibold transition" data-i18n="nav.launchDemo">Р—Р°РїСѓСЃС‚РёС‚СЊ РґРµРјРѕ</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="mx-auto max-w-7xl px-4 pb-10 pt-10 sm:px-6 lg:px-8 lg:pb-14 lg:pt-16">
+      <div class="max-w-4xl">
+        <div class="pill text-sm font-medium"><span class="h-2 w-2 rounded-full bg-accent"></span><span data-i18n="hero.eyebrow">РЎРІСЏР·Р°С‚СЊСЃСЏ СЃ РєРѕРјР°РЅРґРѕР№</span></div>
+        <h1 class="mt-6 font-heading text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl" data-i18n="hero.title">Р Р°СЃСЃРєР°Р¶РёС‚Рµ Рѕ Р±РёР·РЅРµСЃРµ, Рё РјС‹ РїРѕРєР°Р¶РµРј СЃРёСЃС‚РµРјСѓ СЂРѕСЃС‚Р° РїРѕРґ РІР°СЃ</h1>
+        <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-300" data-i18n="hero.description">РњРѕР¶РЅРѕ РѕСЃС‚Р°РІРёС‚СЊ Р·Р°СЏРІРєСѓ РІ С„РѕСЂРјРµ РёР»Рё СЃСЂР°Р·Сѓ РїРµСЂРµР№С‚Рё РІ Telegram. РќР°С€Р° РєРѕРјР°РЅРґР° Р±С‹СЃС‚СЂРѕ РїРѕРґСЃРєР°Р¶РµС‚, РєР°РєРѕР№ СЃС†РµРЅР°СЂРёР№ РґР°СЃС‚ Р±РѕР»СЊС€Рµ РїСЂСЏРјС‹С… Р±СЂРѕРЅРёСЂРѕРІР°РЅРёР№, Р·Р°СЏРІРѕРє Рё РІС‹СЂСѓС‡РєРё.</p>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8 lg:pb-20">
+      <div class="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
+        <div class="glass-card rounded-[32px] p-8 sm:p-10">
+          <div class="text-sm text-accent" data-i18n="contactOptions.label">Быстрые каналы связи</div>
+          <h2 class="mt-4 font-heading text-3xl font-bold" data-i18n="contactOptions.title">Выберите удобный канал или оставьте заявку</h2>
+          <p class="mt-4 text-slate-300" data-i18n="contactOptions.description">Форма ниже отправляет лид сразу в Telegram и может дополнительно логироваться в CRM. Если удобнее написать напрямую, используйте один из каналов ниже.</p>
+          <div class="mt-8 grid gap-4">
+            <a href="#" target="_blank" rel="noreferrer" class="contact-option-card" data-contact-link="telegram" data-contact-channel="telegram">
+              <span class="contact-option-label" data-i18n="contactOptions.telegramLabel">Telegram</span>
+              <strong class="contact-option-title" data-i18n="contactOptions.telegramTitle">Написать в Telegram</strong>
+              <span class="contact-option-value" data-contact-value="telegram">@Ai_Element_Bot</span>
+            </a>
+            <a href="#" target="_blank" rel="noreferrer" class="contact-option-card" data-contact-link="whatsapp" data-contact-channel="whatsapp">
+              <span class="contact-option-label" data-i18n="contactOptions.whatsappLabel">WhatsApp</span>
+              <strong class="contact-option-title" data-i18n="contactOptions.whatsappTitle">Открыть чат WhatsApp</strong>
+              <span class="contact-option-value" data-contact-value="whatsapp">+7 999 000-00-00</span>
+            </a>
+            <a href="#" class="contact-option-card" data-contact-link="phone" data-contact-channel="phone">
+              <span class="contact-option-label" data-i18n="contactOptions.phoneLabel">Телефон</span>
+              <strong class="contact-option-title" data-i18n="contactOptions.phoneTitle">Позвонить команде</strong>
+              <span class="contact-option-value" data-contact-value="phone">+7 999 000-00-00</span>
+            </a>
+            <a href="#" class="contact-option-card" data-contact-link="email" data-contact-channel="email">
+              <span class="contact-option-label" data-i18n="contactOptions.emailLabel">Email</span>
+              <strong class="contact-option-title" data-i18n="contactOptions.emailTitle">Отправить письмо</strong>
+              <span class="contact-option-value" data-contact-value="email">hello@example.com</span>
+            </a>
+          </div>
+          <div class="mt-8 flex flex-col gap-4">
+            <a href="demo.html" class="btn-secondary rounded-full px-6 py-4 text-center text-sm font-semibold transition" data-i18n="telegram.secondary">РЎРЅР°С‡Р°Р»Р° РїРѕСЃРјРѕС‚СЂРµС‚СЊ РґРµРјРѕ</a>
+            <p class="text-sm text-slate-400" data-i18n="contactOptions.note">Если включите прокси или CRM-логирование, данные из формы можно сохранять дополнительно в Google Apps Script или Firebase без изменения HTML.</p>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-[32px] p-8 sm:p-10">
+          <div class="text-sm text-accent" data-i18n="form.label">Форма заявки</div>
+          <h2 class="mt-4 font-heading text-3xl font-bold" data-i18n="form.title">Оставьте контакты, и мы быстро свяжемся</h2>
+          <p class="mt-4 text-slate-300" data-i18n="form.description">После отправки заявка уходит в Telegram мгновенно, а дополнительные интеграции можно включить через конфиг в `site.js`.</p>
+          <form class="mt-8 space-y-5" data-lead-form novalidate>
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-slate-100" for="lead-name" data-i18n="form.nameLabel">Имя</label>
+              <input id="lead-name" name="name" type="text" autocomplete="name" required class="form-input w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-4 outline-none transition focus:border-accent/40" placeholder="Ваше имя" data-i18n-placeholder="form.name">
+              <p class="form-field-error text-sm text-[#ff8f8f]" data-field-error="name" hidden></p>
+            </div>
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-slate-100" for="lead-contact" data-i18n="form.contactLabel">Контакт для связи</label>
+              <input id="lead-contact" name="contact" type="text" autocomplete="tel" required class="form-input w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-4 outline-none transition focus:border-accent/40" placeholder="Телефон, Telegram, WhatsApp" data-i18n-placeholder="form.contact">
+              <p class="form-field-error text-sm text-[#ff8f8f]" data-field-error="contact" hidden></p>
+            </div>
+            <div class="space-y-2">
+              <label class="block text-sm font-semibold text-slate-100" for="lead-message" data-i18n="form.messageLabel">Сообщение</label>
+              <textarea id="lead-message" name="message" rows="5" class="form-input w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-4 outline-none transition focus:border-accent/40" placeholder="Коротко опишите запрос" data-i18n-placeholder="form.message"></textarea>
+            </div>
+            <input type="text" name="company" class="sr-only" tabindex="-1" autocomplete="off" data-lead-honeypot>
+            <div class="form-feedback text-sm" data-form-feedback role="status" aria-live="polite" hidden></div>
+            <button type="submit" class="btn-growth w-full rounded-full px-6 py-4 text-sm font-semibold transition" data-submit-button>
+              <span data-submit-label data-i18n="form.submit">Отправить заявку</span>
+            </button>
+          </form>
+          <div class="mt-5 rounded-3xl border border-growth/20 bg-growth/10 p-5 text-slate-100" data-form-success data-i18n="form.success" hidden>Спасибо. Мы получили заявку и уже передали её в рабочий канал команды.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
+      <div><div class="font-heading text-2xl font-bold">AiElement</div><p class="mt-3 max-w-xl text-slate-400" data-i18n="footer.description">РќР°С€Р° РєРѕРјР°РЅРґР° СЃРѕР·РґР°С‘С‚ AI-СЃРёСЃС‚РµРјС‹ РїСЂРѕРґР°Р¶ Рё СЃРµСЂРІРёСЃР° РґР»СЏ Р±РёР·РЅРµСЃР°: СЃР°Р№С‚С‹, Р±РѕС‚С‹, Р°РІС‚РѕРјР°С‚РёР·Р°С†РёСЋ Р·Р°СЏРІРѕРє Рё СЃС†РµРЅР°СЂРёРё СЂРѕСЃС‚Р° РІС‹СЂСѓС‡РєРё.</p></div>
+      <div class="grid gap-3 sm:grid-cols-3"><a href="services.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link1">РЈСЃР»СѓРіРё</a><a href="cases.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link2">РљРµР№СЃС‹</a><a href="contact.html" class="text-slate-300 transition hover:text-white" data-i18n="footer.link3">РљРѕРЅС‚Р°РєС‚С‹</a></div>
+    </div>
+    <div class="border-t border-white/10"><div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-sm text-slate-500 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8"><div data-i18n="footer.copy">AiElement. РљРѕРјР°РЅРґР° СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРѕРІ РР-СЂРµС€РµРЅРёР№ РґР»СЏ Р±РёР·РЅРµСЃР°.</div><div>&copy; <span data-year></span> AiElement</div></div></div>
+  </footer>
+
+  <a href="#" target="_blank" rel="noreferrer" class="floating-cta btn-primary fixed bottom-5 right-5 z-40 rounded-full px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5" data-contact-link="telegram" data-contact-channel="telegram" data-i18n="floating.demo">Р”РµРјРѕ РІ Р±РѕС‚Рµ</a>
+</body>
+</html>

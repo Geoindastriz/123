@@ -1,0 +1,253 @@
+[     420ms] ReferenceError: tailwind is not defined
+    at http://127.0.0.1:8123/index.html:12:5
+[     782ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[     995ms] [WARNING] Alpine Expression Error: siteState is not defined
+
+Expression: "siteState()"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     995ms] [WARNING] Alpine Expression Error: init is not defined
+
+Expression: "init()"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     995ms] [WARNING] Alpine Expression Error: locale is not defined
+
+Expression: "locale === 'ru' ? 'bg-white text-black' : 'text-slate-400'"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     995ms] [WARNING] Alpine Expression Error: locale is not defined
+
+Expression: "locale === 'en' ? 'bg-white text-black' : 'text-slate-400'"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     995ms] [WARNING] Alpine Expression Error: mobileOpen is not defined
+
+Expression: "mobileOpen.toString()"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     995ms] [WARNING] Alpine Expression Error: locale is not defined
+
+Expression: "locale === 'ru' ? 'Открыть меню' : 'Open menu'"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     995ms] [WARNING] Alpine Expression Error: mobileOpen is not defined
+
+Expression: "mobileOpen"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     995ms] [WARNING] Alpine Expression Error: mobileOpen is not defined
+
+Expression: "mobileOpen"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     996ms] [WARNING] Alpine Expression Error: locale is not defined
+
+Expression: "locale === 'ru' ? 'Закрыть меню' : 'Close menu'"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     996ms] [WARNING] Alpine Expression Error: locale is not defined
+
+Expression: "locale === 'ru' ? 'bg-white text-black' : 'text-slate-400'"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[     996ms] [WARNING] Alpine Expression Error: locale is not defined
+
+Expression: "locale === 'en' ? 'bg-white text-black' : 'text-slate-400'"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[    1019ms] Uncaught ReferenceError: siteState is not defined
+    at [Alpine] siteState() (:2:15)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at T (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:142)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:36015)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1019ms] Uncaught ReferenceError: init is not defined
+    at [Alpine] init() (:2:15)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at T (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:142)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:34891)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:12502)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1020ms] Uncaught ReferenceError: locale is not defined
+    at [Alpine] locale === 'ru' ? 'bg-white text-black' : 'text-slate-400' (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35490)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at Nn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35484)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1021ms] Uncaught ReferenceError: locale is not defined
+    at [Alpine] locale === 'en' ? 'bg-white text-black' : 'text-slate-400' (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35490)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at Nn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35484)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1021ms] Uncaught ReferenceError: mobileOpen is not defined
+    at [Alpine] mobileOpen.toString() (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35490)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at Nn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35484)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1022ms] Uncaught ReferenceError: locale is not defined
+    at [Alpine] locale === 'ru' ? 'Открыть меню' : 'Open menu' (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35490)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at Nn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35484)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1022ms] Uncaught ReferenceError: mobileOpen is not defined
+    at [Alpine] mobileOpen (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:36921)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:36915)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1022ms] Uncaught ReferenceError: mobileOpen is not defined
+    at [Alpine] mobileOpen (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:36921)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:36915)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1023ms] Uncaught ReferenceError: locale is not defined
+    at [Alpine] locale === 'ru' ? 'Закрыть меню' : 'Close menu' (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35490)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at Nn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35484)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1024ms] Uncaught ReferenceError: locale is not defined
+    at [Alpine] locale === 'ru' ? 'bg-white text-black' : 'text-slate-400' (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35490)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at Nn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35484)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1025ms] Uncaught ReferenceError: locale is not defined
+    at [Alpine] locale === 'en' ? 'bg-white text-black' : 'text-slate-400' (:2:31)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35490)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19446)
+    at fn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:19234)
+    at R (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:463)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:576)
+    at Nn (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:35484)
+    at r (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3073)
+    at n (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3103)
+    at br (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:3113)
+    at S (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5988)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5342)
+    at Or (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:5330)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40752)
+[    1008ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8123/favicon.ico:0
+[   24216ms] [WARNING] Alpine Expression Error: toggleMobileMenu is not defined
+
+Expression: "toggleMobileMenu()"
+
+ JSHandle@node @ https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0
+[   24221ms] Uncaught ReferenceError: toggleMobileMenu is not defined
+    at [Alpine] toggleMobileMenu() (:2:15)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:1156)
+    at ar (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:0:5306)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:40273)
+    at o (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:28889)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:29773)
+    at <anonymous> (https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js:4:28911)
+[   91227ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63

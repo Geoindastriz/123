@@ -1,0 +1,26 @@
+<svg width="1280" height="860" viewBox="0 0 1280 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="860" rx="34" fill="#081019"/>
+  <rect x="30" y="30" width="1220" height="800" rx="28" stroke="#223141" stroke-width="2"/>
+  <rect x="70" y="74" width="1140" height="82" rx="22" fill="#0F1722" stroke="#223141"/>
+  <text x="110" y="126" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="30" font-weight="700">@Ai_Element_Bot</text>
+  <text x="920" y="126" fill="#00F0FF" font-family="Arial, sans-serif" font-size="22" font-weight="700">Лиды и ответы в Telegram</text>
+
+  <rect x="96" y="206" width="470" height="144" rx="24" fill="#131E2A" stroke="#26374A"/>
+  <rect x="714" y="238" width="470" height="144" rx="24" fill="#0D2430" stroke="#0F5D73"/>
+  <rect x="96" y="396" width="470" height="144" rx="24" fill="#131E2A" stroke="#26374A"/>
+  <rect x="714" y="428" width="470" height="144" rx="24" fill="#0D2430" stroke="#0F5D73"/>
+  <rect x="96" y="586" width="470" height="144" rx="24" fill="#131E2A" stroke="#26374A"/>
+  <rect x="714" y="618" width="470" height="144" rx="24" fill="#0D2430" stroke="#0F5D73"/>
+
+  <text x="128" y="252" fill="#9CC7D8" font-family="Arial, sans-serif" font-size="22">Клиент</text>
+  <text x="128" y="296" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Нужен номер на двоих с пятницы по воскресенье</text>
+  <text x="742" y="286" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24">Подобрал варианты, отправил ссылку на бронь и тарифы.</text>
+
+  <text x="128" y="442" fill="#9CC7D8" font-family="Arial, sans-serif" font-size="22">Клиент</text>
+  <text x="128" y="486" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Можно добавить завтрак и поздний выезд?</text>
+  <text x="742" y="476" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24">Апселл собран автоматически, менеджер получил уведомление.</text>
+
+  <text x="128" y="632" fill="#9CC7D8" font-family="Arial, sans-serif" font-size="22">Клиент</text>
+  <text x="128" y="676" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Позвоните, если освободится люкс с видом на море</text>
+  <text x="742" y="666" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24">Лид сохранён в CRM, включён сценарий повторного касания.</text>
+</svg>

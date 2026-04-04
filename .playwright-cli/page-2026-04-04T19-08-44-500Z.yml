@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "AiElement AI solutions for business" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e7]:
+          - generic [ref=e8]: AiElement
+          - generic [ref=e9]: AI solutions for business
+      - button "Open menu" [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - generic [ref=e18]: Talk to the team
+      - heading "Tell us about the business, and we will show a growth system for it" [level=1] [ref=e19]
+      - paragraph [ref=e20]: Leave a request in the form or jump straight into Telegram. Our team will quickly suggest which scenario can bring more direct bookings, leads, and revenue.
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: Telegram
+        - heading "The fastest path to a live demonstration" [level=2] [ref=e25]
+        - paragraph [ref=e26]: If you want to see the mechanics right away or ask a few questions, jump into Telegram. It is the quickest way to start a conversation with our team.
+        - generic [ref=e27]:
+          - link "Open @Ai_Element_Bot" [ref=e28] [cursor=pointer]:
+            - /url: https://t.me/Ai_Element_Bot
+          - link "See the demo first" [ref=e29] [cursor=pointer]:
+            - /url: demo.html
+      - generic [ref=e30]:
+        - generic [ref=e31]: Request form
+        - heading "Leave the basics and we will return with a proposal" [level=2] [ref=e32]
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - textbox "Your name" [ref=e35]
+            - textbox "Company / niche" [ref=e36]
+          - generic [ref=e37]:
+            - textbox "Phone or Telegram" [ref=e38]
+            - textbox "What do you want to automate" [ref=e39]
+          - textbox "Briefly describe the task" [ref=e40]
+          - button "Send request" [ref=e41] [cursor=pointer]
+  - contentinfo [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]: AiElement
+        - paragraph [ref=e46]: "Our team builds AI-powered sales and service systems for business: websites, bots, lead automation, and revenue growth scenarios."
+      - generic [ref=e47]:
+        - link "Services" [ref=e48] [cursor=pointer]:
+          - /url: services.html
+        - link "Cases" [ref=e49] [cursor=pointer]:
+          - /url: cases.html
+        - link "Contact" [ref=e50] [cursor=pointer]:
+          - /url: contact.html
+    - generic [ref=e52]:
+      - generic [ref=e53]: AiElement. AI solution development team for business.
+      - generic [ref=e54]: © 2026 AiElement
+  - link "Bot demo" [ref=e55] [cursor=pointer]:
+    - /url: https://t.me/Ai_Element_Bot
